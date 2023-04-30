@@ -1,0 +1,24 @@
+#loading {
+    /* (A1) COVER FULL PAGE */
+    position: fixed;
+    top: 0; left: 0; z-index: 999;
+    width: 100vw; height: 100vh;
+   
+    /* (A2) SPINNER IMAGE */
+    background-color: black;
+    background-image: url("image 1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+  .myTableBg { 
+    width: 100%;
+    text-align: left;
+    background: white url(/pix/samples/celebrate.gif) repeat;
+    border-collapse: collapse;
+    }
+  .myTableBg td, .myTableBg th { 
+    border:2px solid black;
+    padding:5px;
+    }
